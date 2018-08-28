@@ -23,7 +23,7 @@ Best Python Codes by Bernacle:
 namaku = "Bernacle";
 
 while True :
-    print("I am " + namaku "!");
+    print("I am " + namaku + "!");
 ```
 
 ## Tabel Silsilah Keluarga Bernacle :smirk:
