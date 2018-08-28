@@ -16,7 +16,7 @@ __*Ini alkisah cerita seorang anak bernama Bernacle yang tertukar dengan seekor 
 
 Bernacle berkata:
 >Walaupun kau tertukar, __Jangan Khawatir!__
-Tulang Rusuk Takkan Tertukar.
+Ikan Tuna Takkan Tertukar.
 
 Best Python Codes by Bernacle:
 ```python
