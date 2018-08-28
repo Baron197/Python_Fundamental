@@ -1,0 +1,34 @@
+.box {
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 20px;
+    transition: 1s;
+    height: 100px;
+    width: 100px;
+    /* margin: 50px; */
+    background-color: purple;
+    top: 20px;
+    left: 20px;
+    position: relative;
+}
+
+.box:hover {
+    color: black;
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    height: 200px;
+    width: 200px;
+    /* margin: 50px; */
+    background-color: aqua;
+    transform: rotate(360deg);
+}
+
+.box:active {
+    background-color: orange;
+}
+input:hover {
+    background-color: aqua;
+}
+input:active {
+    background-color: orange;
+}
