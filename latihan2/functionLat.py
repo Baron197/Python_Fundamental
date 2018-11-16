@@ -1,0 +1,3 @@
+buah = []
+
+buah.append('Apel')
