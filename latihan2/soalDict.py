@@ -7,9 +7,9 @@ def lihatFullDictionary(theDictionary) :
     print("|        Key         |       Value       |");
     print("|____________________|___________________|");
     for key in theDictionary :
-        if(str(type(theDictionary[key])) == "<class 'str'>") :
+        if(type(theDictionary[key]) == type('')) :
             print("|        " + key + "        |        '" + theDictionary[key] + "'        |");
-        elif(str(type(theDictionary[key])) == "<class 'int'>") :
+        elif(type(theDictionary[key]) == type(0)) :
             print("|        " + key + "         |       " + str(theDictionary[key]) + "        |");
         print("|____________________|___________________|");
 
@@ -35,17 +35,15 @@ def searchDictionary(theDictionary) :
     lihatFullDictionary(newDDictionary);
 
 
-newDictionary = {};
+newDictionary = {}
+
+listMenu = [lihatFullDictionary, isiDictionary, searchDictionary]
 while True :
-    check = mainMenu();
-    if(check == "1") :
-        lihatFullDictionary(newDictionary);
-    elif(check == "2") :
-        isiDictionary(newDictionary);
-    elif(check == "3") :
-        searchDictionary(newDictionary);
-    elif(check == "4") :
+    check = int(mainMenu());
+    if(check == 4) :
         print("Sampai jupa cus! salam bertasbih!");
         break;
+    elif(check >= 1 and check <= 3 ) :
+        listMenu[int(check)-1](newDictionary)
 
 

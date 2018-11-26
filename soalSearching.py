@@ -11,20 +11,20 @@ print(searchedList)
 
 # Map & Filter
 
-# def mapBertasbih(fn, theList) :
-#     newList = []
-#     for item in theList :
-#         newList.append(fn(item))
+def mapBertasbih(fn, theList) :
+    newList = []
+    for item in theList :
+        newList.append(fn(item))
     
-#     return newList
+    return newList
 
-# def filterBertasbih(fn, theList) :
-#     newList = []
-#     for item in theList :
-#         if(fn(item)):
-#             newList.append(item)
+def filterBertasbih(fn, theList) :
+    newList = []
+    for item in theList :
+        if(fn(item)):
+            newList.append(item)
 
-#     return newList
+    return newList
 
 # listTest = [1,2,3,4,5]
 
